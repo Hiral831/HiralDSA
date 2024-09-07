@@ -14,7 +14,23 @@ int main() {
       n = n / 10;
       i++;
     }
-        cout << ans;
+        cout << ans;  
 
     return 0;
 }
+
+
+// int main() {
+//     int n;
+//     cout << "Enter number: ";
+//     cin >> n;
+//     int ans = 0;
+
+//     while (n != 0) {
+//         ans = (ans << 1) + (n % 10);
+//         n = n / 10;
+//     }
+//     cout << ans;
+
+//     return 0;
+// }
